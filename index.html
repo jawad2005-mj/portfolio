@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Muhammad Jawad — ML Engineer & Data Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo"><span class="logo-bracket">[</span>MJ<span class="logo-bracket">]</span></div>
+  <ul class="nav-links">
+    <li><a href="#hero" class="nav-link active">HOME</a></li>
+    <li><a href="#about" class="nav-link">ABOUT</a></li>
+    <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+    <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+  </ul>
+  <div class="nav-status"><span class="status-dot"></span>AVAILABLE FOR WORK</div>
+  <button class="nav-mobile-toggle" id="mobileToggle">☰</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-orbs">
+    <div class="orb orb-blue"></div>
+    <div class="orb orb-green"></div>
+    <div class="orb orb-purple"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge"><span class="badge-dot"></span>ML ENGINEER · DATA SCIENTIST</div>
+      <h1 class="hero-name">Muhammad<br/><span class="name-accent">Jawad</span></h1>
+      <p class="hero-tagline">Engineering Intelligence.<br/>Deploying Impact.</p>
+      <p class="hero-desc">Building end-to-end ML pipelines across healthcare, finance & marketing. Transforming complex data into production-grade systems that deliver real business outcomes.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary"><span>EXPLORE PROJECTS</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <a href="#contact" class="btn btn-ghost"><span>INITIALIZE CONTACT</span></a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">4+</span><span class="stat-label">ML Systems Built</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Domains Served</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2026</span><span class="stat-label">Active Since</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="photo-container">
+        <div class="photo-glow-ring"></div>
+        <div class="photo-frame">
+          <img src="assets/jawad_enhanced.jpg" alt="Muhammad Jawad" class="hero-photo" id="heroPhoto"/>
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="photo-badge-tl"><span>ML</span></div>
+        <div class="photo-badge-br"><span>AI</span></div>
+        <div class="photo-corner-tl"></div>
+        <div class="photo-corner-tr"></div>
+        <div class="photo-corner-bl"></div>
+        <div class="photo-corner-br"></div>
+      </div>
+      <div class="terminal-window">
+        <div class="terminal-titlebar">
+          <span class="t-dot t-red"></span>
+          <span class="t-dot t-yellow"></span>
+          <span class="t-dot t-green"></span>
+          <span class="t-title">jawad@ml-engine ~ </span>
+        </div>
+        <div class="terminal-body" id="terminalBody"></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>SCROLL</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">ABOUT</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">Results-driven ML Engineer and Data Scientist with hands-on industry experience building and deploying end-to-end predictive ML pipelines.</p>
+        <p class="about-body">Proficient in Python, Scikit-Learn, TensorFlow, and FastAPI, with proven expertise in supervised and unsupervised learning, real-time model deployment, and translating complex analytics into actionable business insights.</p>
+        <p class="about-body">Adept at handling imbalanced datasets (SMOTE), hyperparameter tuning, and delivering production-grade ML solutions via both desktop GUI and web-based applications.</p>
+        <div class="about-meta">
+          <div class="meta-item"><span class="meta-icon">📍</span><span>Bahawalpur, Pakistan</span></div>
+          <div class="meta-item"><span class="meta-icon">🎓</span><span>B.Sc. Software Engineering — IUB</span></div>
+          <div class="meta-item"><span class="meta-icon">💼</span><span>Python & ML Dev — IntelliXsoft</span></div>
+          <div class="meta-item"><span class="meta-icon">📧</span><span>jawad48332@gmail.com</span></div>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="about-card glass">
+          <div class="card-icon">🧠</div>
+          <h3>ML Engineering</h3>
+          <p>End-to-end pipeline design: from raw data ingestion to production deployment with FastAPI backends.</p>
+        </div>
+        <div class="about-card glass">
+          <div class="card-icon">📊</div>
+          <h3>Data Science</h3>
+          <p>Statistical modeling, feature engineering, and translating complex analytics into business decisions.</p>
+        </div>
+        <div class="about-card glass">
+          <div class="card-icon">🚀</div>
+          <h3>Deployment</h3>
+          <p>Production-ready applications via FastAPI REST endpoints, Streamlit web apps, and CustomTkinter GUIs.</p>
+        </div>
+        <div class="about-card glass">
+          <div class="card-icon">⚕️</div>
+          <h3>Domain Expertise</h3>
+          <p>Healthcare diagnostics, financial fraud detection, and marketing analytics pipelines.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title">EXPERIENCE</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item" data-index="0">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-card glass" onclick="toggleExp(0)">
+          <div class="timeline-header">
+            <div class="tl-left">
+              <span class="tl-company">IntelliXsoft</span>
+              <h3 class="tl-role">Python & Machine Learning Developer</h3>
+              <div class="tl-meta">
+                <span class="tl-type">Full-time · On-site</span>
+                <span class="tl-loc">📍 Bahawalpur, Punjab</span>
+              </div>
+            </div>
+            <div class="tl-right">
+              <span class="tl-date">Jun 2025 – Present</span>
+              <span class="tl-badge current">CURRENT</span>
+              <span class="tl-toggle">▼</span>
+            </div>
+          </div>
+          <div class="timeline-details" id="exp-0">
+            <div class="detail-grid">
+              <div class="detail-item">
+                <span class="detail-icon">🔐</span>
+                <div>
+                  <strong>Fraud Detection System</strong>
+                  <p>Engineered end-to-end Credit Card Fraud Detection using Random Forest + SMOTE on highly imbalanced financial data, significantly reducing manual analyst review time.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">👥</span>
+                <div>
+                  <strong>Customer Segmentation Pipeline</strong>
+                  <p>Developed AI-driven segmentation using K-Means Clustering and Decision Trees, helping marketing teams optimize ad spend and improve retention.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">⚡</span>
+                <div>
+                  <strong>Production Deployment</strong>
+                  <p>Deployed ML models via FastAPI, building secure RESTful endpoints for seamless real-time external integration.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">📈</span>
+                <div>
+                  <strong>Enterprise Dashboards</strong>
+                  <p>Built interactive GUI dashboards using CustomTkinter and Matplotlib to present complex ML insights clearly to non-technical stakeholders.</p>
+                </div>
+              </div>
+            </div>
+            <div class="detail-tags">
+              <span class="dtag">Random Forest</span><span class="dtag">SMOTE</span><span class="dtag">K-Means</span><span class="dtag">FastAPI</span><span class="dtag">CustomTkinter</span><span class="dtag">Matplotlib</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-section">
+      <h3 class="edu-title">EDUCATION</h3>
+      <div class="edu-grid">
+        <div class="edu-card glass">
+          <span class="edu-year">2023 – 2027</span>
+          <h4>B.Sc. Software Engineering</h4>
+          <p>The Islamia University of Bahawalpur</p>
+          <span class="edu-grade grade-a">Grade: A</span>
+        </div>
+        <div class="edu-card glass">
+          <span class="edu-year">2021 – 2023</span>
+          <h4>Intermediate – Pre-Medical</h4>
+          <p>Zakariya Science College</p>
+          <span class="edu-grade grade-a">Grade: A</span>
+        </div>
+        <div class="edu-card glass">
+          <span class="edu-year">2019 – 2021</span>
+          <h4>Matriculation – Science</h4>
+          <p>Zakariya Science College</p>
+          <span class="edu-grade grade-a+">Grade: A+ (Distinction)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">PROJECTS</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">ALL</button>
+      <button class="filter-btn" data-filter="ml">MACHINE LEARNING</button>
+      <button class="filter-btn" data-filter="web">WEB APPS</button>
+      <button class="filter-btn" data-filter="healthcare">HEALTHCARE</button>
+    </div>
+    <div class="projects-grid" id="projectsGrid">
+
+      <div class="project-card glass" data-cat="ml">
+        <div class="project-glow"></div>
+        <div class="project-header">
+          <div class="project-icon">🔐</div>
+          <div class="project-status"><span class="ps-dot"></span>PRODUCTION</div>
+        </div>
+        <h3>Credit Card Fraud Detection System</h3>
+        <p class="project-desc">Production-ready pipeline using Random Forest + SMOTE to detect fraud in imbalanced financial datasets. FastAPI backend with real-time inference and enterprise CustomTkinter GUI for analysts.</p>
+        <div class="project-metrics">
+          <div class="metric"><span class="m-val">↓ Significantly</span><span class="m-lbl">False Positives</span></div>
+          <div class="metric"><span class="m-val">Real-time</span><span class="m-lbl">Inference</span></div>
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag blue">Random Forest</span>
+          <span class="stack-tag green">SMOTE</span>
+          <span class="stack-tag blue">FastAPI</span>
+          <span class="stack-tag purple">CustomTkinter</span>
+          <span class="stack-tag green">Matplotlib</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="pact-btn pact-ghost">SOURCE CODE</a>
+          <a href="#" class="pact-btn pact-primary">LIVE DEMO</a>
+        </div>
+      </div>
+
+      <div class="project-card glass featured" data-cat="healthcare ml">
+        <div class="project-glow green"></div>
+        <div class="project-header">
+          <div class="project-icon">❤️</div>
+          <div class="project-status"><span class="ps-dot green"></span>DEPLOYED</div>
+        </div>
+        <div class="featured-badge">FEATURED</div>
+        <h3>CardioGuard AI — Heart Disease Prediction</h3>
+        <p class="project-desc">Cardiovascular risk assessment tool analyzing 13 clinical parameters (Chest Pain Type, Resting BP, Serum Cholesterol) using optimized Decision Tree Classifier with strict pipeline to prevent data leakage.</p>
+        <div class="project-metrics">
+          <div class="metric"><span class="m-val">13</span><span class="m-lbl">Clinical Parameters</span></div>
+          <div class="metric"><span class="m-val">0</span><span class="m-lbl">Data Leakage</span></div>
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag green">Decision Tree</span>
+          <span class="stack-tag blue">StandardScaler</span>
+          <span class="stack-tag purple">CustomTkinter</span>
+          <span class="stack-tag green">Scikit-Learn</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="pact-btn pact-ghost">SOURCE CODE</a>
+          <a href="#" class="pact-btn pact-primary">LIVE DEMO</a>
+        </div>
+      </div>
+
+      <div class="project-card glass" data-cat="healthcare ml">
+        <div class="project-glow"></div>
+        <div class="project-header">
+          <div class="project-icon">🧠</div>
+          <div class="project-status"><span class="ps-dot"></span>CLINICAL GRADE</div>
+        </div>
+        <h3>Parkinson's Disease Detection System</h3>
+        <p class="project-desc">Clinical-grade ML system detecting Parkinson's Disease using 22 biomedical vocal metrics (Jitter, Shimmer, HNR, PPE) with SVM optimized via GridSearchCV. Full-screen Kiosk Mode GUI for non-technical clinical staff.</p>
+        <div class="project-metrics">
+          <div class="metric"><span class="m-val">22</span><span class="m-lbl">Vocal Metrics</span></div>
+          <div class="metric"><span class="m-val">Max</span><span class="m-lbl">Recall Optimized</span></div>
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag blue">SVM</span>
+          <span class="stack-tag green">GridSearchCV</span>
+          <span class="stack-tag purple">Kiosk GUI</span>
+          <span class="stack-tag blue">Scikit-Learn</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="pact-btn pact-ghost">SOURCE CODE</a>
+          <a href="#" class="pact-btn pact-primary">LIVE DEMO</a>
+        </div>
+      </div>
+
+      <div class="project-card glass" data-cat="ml web">
+        <div class="project-glow"></div>
+        <div class="project-header">
+          <div class="project-icon">📊</div>
+          <div class="project-status"><span class="ps-dot green"></span>LIVE</div>
+        </div>
+        <h3>Customer Segmentation & Predictive Analytics</h3>
+        <p class="project-desc">K-Means Clustering + Decision Tree pipeline to segment retail customers by purchasing behavior and estimate churn. FastAPI backend with Tkinter dashboard for marketing teams.</p>
+        <div class="project-metrics">
+          <div class="metric"><span class="m-val">REST</span><span class="m-lbl">API Backend</span></div>
+          <div class="metric"><span class="m-val">Real-time</span><span class="m-lbl">Churn Prediction</span></div>
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag blue">K-Means</span>
+          <span class="stack-tag green">Decision Tree</span>
+          <span class="stack-tag blue">FastAPI</span>
+          <span class="stack-tag purple">Tkinter</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="pact-btn pact-ghost">SOURCE CODE</a>
+          <a href="#" class="pact-btn pact-primary">LIVE DEMO</a>
+        </div>
+      </div>
+
+      <div class="project-card glass" data-cat="web">
+        <div class="project-glow"></div>
+        <div class="project-header">
+          <div class="project-icon">🎓</div>
+          <div class="project-status"><span class="ps-dot green"></span>DEPLOYED</div>
+        </div>
+        <h3>Student Management & CGPA System</h3>
+        <p class="project-desc">Full-featured student management system with CGPA calculator built using Python, Streamlit, and OOP principles. Deployed as a live web application with clean dashboard interface.</p>
+        <div class="project-stack">
+          <span class="stack-tag green">Python</span>
+          <span class="stack-tag blue">Streamlit</span>
+          <span class="stack-tag purple">OOP</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="pact-btn pact-ghost">SOURCE CODE</a>
+          <a href="#" class="pact-btn pact-primary">LIVE DEMO</a>
+        </div>
+      </div>
+
+      <div class="project-card glass" data-cat="web">
+        <div class="project-glow"></div>
+        <div class="project-header">
+          <div class="project-icon">💳</div>
+          <div class="project-status"><span class="ps-dot green"></span>LIVE</div>
+        </div>
+        <h3>JazzCash USSD Banking Simulator</h3>
+        <p class="project-desc">Realistic USSD banking simulator replicating JazzCash flow for educational and demo purposes. Built with Python, Streamlit, and solid OOP architecture — deployed as a live web app.</p>
+        <div class="project-stack">
+          <span class="stack-tag green">Python</span>
+          <span class="stack-tag blue">Streamlit</span>
+          <span class="stack-tag purple">USSD Simulation</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="pact-btn pact-ghost">SOURCE CODE</a>
+          <a href="#" class="pact-btn pact-primary">LIVE DEMO</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">SKILLS</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-layout">
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><span class="sct-icon">💻</span>LANGUAGES</h3>
+        <div class="skill-tags">
+          <span class="skill-tag primary">Python (OOP)</span>
+          <span class="skill-tag primary">SQL</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><span class="sct-icon">🤖</span>ML / AI</h3>
+        <div class="skill-tags">
+          <span class="skill-tag green">Supervised Learning</span>
+          <span class="skill-tag green">Unsupervised Learning</span>
+          <span class="skill-tag green">Classification</span>
+          <span class="skill-tag green">Clustering</span>
+          <span class="skill-tag green">SMOTE</span>
+          <span class="skill-tag green">Hyperparameter Tuning</span>
+          <span class="skill-tag green">GridSearchCV</span>
+          <span class="skill-tag green">Cross-Validation</span>
+          <span class="skill-tag green">Predictive Modeling</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><span class="sct-icon">📚</span>LIBRARIES</h3>
+        <div class="skill-tags">
+          <span class="skill-tag blue">Scikit-Learn</span>
+          <span class="skill-tag blue">TensorFlow</span>
+          <span class="skill-tag blue">Pandas</span>
+          <span class="skill-tag blue">NumPy</span>
+          <span class="skill-tag blue">Matplotlib</span>
+          <span class="skill-tag blue">Seaborn</span>
+          <span class="skill-tag blue">Imbalanced-Learn</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><span class="sct-icon">🌐</span>WEB / APIs</h3>
+        <div class="skill-tags">
+          <span class="skill-tag purple">Streamlit</span>
+          <span class="skill-tag purple">FastAPI</span>
+          <span class="skill-tag purple">REST APIs</span>
+          <span class="skill-tag purple">Joblib</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><span class="sct-icon">🛠️</span>TOOLS</h3>
+        <div class="skill-tags">
+          <span class="skill-tag orange">CustomTkinter</span>
+          <span class="skill-tag orange">Jupyter Notebook</span>
+          <span class="skill-tag orange">Google Colab</span>
+          <span class="skill-tag orange">Git</span>
+          <span class="skill-tag orange">GitHub</span>
+          <span class="skill-tag orange">VS Code</span>
+          <span class="skill-tag orange">Kaggle</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="certs-section">
+      <h3 class="certs-title">CERTIFICATIONS</h3>
+      <div class="certs-grid">
+        <div class="cert-card glass">
+          <div class="cert-icon">🏆</div>
+          <div class="cert-info">
+            <h4>Intermediate Python for Developers</h4>
+            <p>DataCamp · Oct 2025</p>
+            <span class="cert-id">ID: #43,826,371</span>
+          </div>
+        </div>
+        <div class="cert-card glass">
+          <div class="cert-icon">🏆</div>
+          <div class="cert-info">
+            <h4>Introduction to Programming Using Python</h4>
+            <p>DataCamp · Oct 2025</p>
+            <span class="cert-id">ID: #40,046,594</span>
+          </div>
+        </div>
+        <div class="cert-card glass">
+          <div class="cert-icon">🏆</div>
+          <div class="cert-info">
+            <h4>Python Streamlit Certification</h4>
+            <p>Streamlit · 2025</p>
+            <span class="cert-id">Official Certification</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2 class="section-title">CONTACT</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <h3 class="contact-heading">Let's Build Something<br/><span class="ch-accent">Extraordinary.</span></h3>
+        <p class="contact-desc">Open to full-time ML Engineering roles, freelance ML projects, and research collaborations. Let's connect and explore what we can build together.</p>
+        <div class="contact-links">
+          <a href="mailto:jawad48332@gmail.com" class="contact-link">
+            <span class="cl-icon">✉️</span>
+            <div><span class="cl-label">EMAIL</span><span class="cl-val">jawad48332@gmail.com</span></div>
+          </a>
+          <a href="tel:+923418148332" class="contact-link">
+            <span class="cl-icon">📞</span>
+            <div><span class="cl-label">PHONE</span><span class="cl-val">+92-341-8148332</span></div>
+          </a>
+          <a href="https://linkedin.com/in/muhammad-jawadofficial" target="_blank" class="contact-link">
+            <span class="cl-icon">💼</span>
+            <div><span class="cl-label">LINKEDIN</span><span class="cl-val">muhammad-jawadofficial</span></div>
+          </a>
+          <a href="https://github.com/jawad2005-mj" target="_blank" class="contact-link">
+            <span class="cl-icon">🐙</span>
+            <div><span class="cl-label">GITHUB</span><span class="cl-val">jawad2005-mj</span></div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap glass">
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label>YOUR NAME</label>
+            <input type="text" placeholder="John Doe" required/>
+          </div>
+          <div class="form-group">
+            <label>EMAIL ADDRESS</label>
+            <input type="email" placeholder="john@company.com" required/>
+          </div>
+          <div class="form-group">
+            <label>SUBJECT</label>
+            <input type="text" placeholder="ML Engineering Opportunity"/>
+          </div>
+          <div class="form-group">
+            <label>MESSAGE</label>
+            <textarea rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width" id="submitBtn">
+            <span>SEND MESSAGE</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+          <div id="formMsg" class="form-msg"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-inner">
+    <div class="footer-logo"><span class="logo-bracket">[</span>MJ<span class="logo-bracket">]</span></div>
+    <p class="footer-text">Muhammad Jawad · ML Engineer & Data Scientist · Bahawalpur, Pakistan</p>
+    <p class="footer-copy">© 2026 · Built with passion and precision</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
